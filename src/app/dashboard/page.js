@@ -27,7 +27,7 @@ export default function Page() {
 //
 function putInCart(pname){
          console.log("putting in cart: " + pname) 
-         fetch("http:api/putInCart?pname="+pname);
+         fetch("api/putInCart?pname="+pname);
   }
   
 

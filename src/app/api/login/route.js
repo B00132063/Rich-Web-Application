@@ -27,7 +27,7 @@
 
 // =================================================
 const { MongoClient } = require('mongodb');
-const url = 'mongodb+srv://b00132063:Akam@2023@cluster0.4awcf6m.mongodb.net/?retryWrites=true&w=majority'; 
+const url = 'mongodb+srv://b00132063:1ZFm0mFIOzgPD7wN@cluster0.4awcf6m.mongodb.net/?retryWrites=true&w=majority'; 
 const client = new MongoClient(url);
 
 
