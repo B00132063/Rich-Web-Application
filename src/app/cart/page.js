@@ -26,7 +26,7 @@ export default function Page() {
 // function for putting items into the shopping cart. 
 //
 function putInCart(pname){
-         console.log("putting in cart: " + pname) 
+         console.log("putting in cart: " + pname);
          fetch("api/putInCart?pname="+pname);
   }
   
@@ -38,7 +38,7 @@ useEffect(() => {
      .then((res) => res.json())
      .then((data) => {
      setData(data)
-     })
+     });
 },[])
 
 if (!data) return <p>No Data</p>
