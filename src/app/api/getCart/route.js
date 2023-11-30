@@ -8,7 +8,7 @@ export async function GET(req, res) {
     const { MongoClient } = require('mongodb');
 
     const url = 'mongodb+srv://b00132063:Akam@2023@cluster0.4awcf6m.mongodb.net/?retryWrites=true&w=majority'; 
-    const client = new MongoClient(url);
+    const client = new MongoClisent(url);
 
     const dbName = 'app'; // database name
 
@@ -23,5 +23,5 @@ export async function GET(req, res) {
     //==========================================================
 
     // at the end of the process we need to send something back.
-    return Response.json(findResult) 
+    return Response.json(findResult) ;
 }
